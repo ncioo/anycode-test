@@ -4,7 +4,7 @@ dotenv.config({ path: __dirname + `/.env` });
 
 //	Импортируем переменные окружения и экспортируем их в одном объекте
 const config = {
-	dbHost: process.env.DB_DATABASE_HOSTHOST,
+	dbHost: process.env.DATABASE_HOST,
 	dbPort: process.env.DATABASE_PORT,
 	dbName: process.env.DATABASE_NAME,
 	dbUser: process.env.DATABASE_USER,
